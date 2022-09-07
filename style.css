@@ -1,0 +1,277 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.outer{
+    display: flex;
+    margin: 10rem 5rem 10rem 5rem;
+    border: 6px solid black;
+    border-radius: 30px;
+    gap: 15px;
+}
+.content-left{
+    flex-basis: 70%;
+    margin-left: 25px;
+}
+.left-head{
+    display: flex;
+    gap: 30px;
+    margin: 20px 0 20px 0;
+    justify-content: center;
+    align-items: center;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    gap: 10px;
+}
+
+.head{
+    background-color: rgba(197, 192, 192, 0.804);
+    width: 100%;
+    border-radius: 30px;
+    padding: 20px;
+    position: relative;
+    height: fit-content ;
+}
+.icon-head{
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    font-size: 1.1rem;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center
+    
+}
+.icon-div{
+    padding: 10px 12px 10px 12px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.bg-image-1{
+    border-radius: 30px;
+}
+
+.bg-image-1 img{
+    width: fit-content;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.left-main{
+    position: relative;
+}
+.upeerimage{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    right: 10px;
+    top: 13px;
+}
+
+.upeerimage .img-common img{
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+.left-footer{
+    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: rgba(197, 192, 192, 0.804);
+    border-radius: 10px;
+    padding: 15px 0 15px 0;
+}
+
+.logo{
+    background-color: white;
+    padding: 12px 10px 6px 10px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+}
+
+.footer-text{
+    text-align: center;
+    padding-top: 6px;
+}
+
+.logo-color1{
+    color: red
+}
+
+.logo-color2{
+    color:blue
+}
+
+
+.content-right{
+    margin: 45px 25px 20px 25px;
+    background-color: rgba(197, 192, 192, 0.804);
+    width: 100%;
+    flex-basis: 30%;
+    border-radius: 20px;
+    padding: 25px;
+    position: relative;
+    
+}
+
+
+.right-head{
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.right-cross{
+    position: absolute;
+    right: 0;
+    top: 1px;
+    background-color: white;
+    padding: 10px 10px 6px 10px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+}
+
+
+.Loading {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 6px;
+    background: #4078cc;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+.Loading:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    background: white;
+}
+
+
+.right-progress{
+    background-color: rgb(49, 49, 224);
+    border-radius: 15px;
+    padding: 20px 20px 10px 20px;
+}
+
+.progress-head{
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.progress-title{
+    display: flex;
+    position: relative;
+    color: rgb(201, 184, 184);
+
+}
+.title-right{
+    position: absolute;
+    right: 0;
+}
+
+.progress-bar{
+    padding-bottom: 15px;
+}
+
+
+.chats{
+    display: flex;
+    flex-direction: column ;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+
+.chat-1{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.chat-image img{
+    border-radius: 50%;
+}
+
+.chat-main{
+    background-color: white ;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+}
+
+.chat-name{
+    font-weight: bold;
+    margin-bottom: 2.5px;
+}
+
+.chat-msg{
+    color:rgb(90, 90, 90);
+}
+
+.chat-time{
+    margin-top: 6px;
+    font-size: .8rem;
+    color:rgb(90, 90, 90);
+
+}
+
+
+.send-msg{
+    display: flex;
+    background-color: white;
+    position: absolute  ;
+    bottom: 20px;
+    width: 70%;
+    padding: 20px;
+    border-radius: 15px;
+    gap: 20px;
+    align-items: center;
+}
+
+.chat-input{
+    width: 100%;
+}
+.chat-input input{
+    width: 100%;
+    padding: 8px;
+}
+
+.chat-btn{
+    margin-left: 20px;
+    background-color: blue;
+    padding: 8px 8px 6px 8px;
+    border-radius: 15%;
+    color: white;
+}
+
+
+.link{
+    border: 2px solid grey;
+    width: fit-content;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}

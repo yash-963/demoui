@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.main::after{
+    position: absolute;
+    content: "";
+    background: rgba(189, 90, 189, 0.727);
+    height: 300px;
+    width: 300px;
+    bottom: 0;
+    right: 0;
+    clip-path: ellipse(58% 40% at 66% 94%);
+    z-index: 1;
+}
+
+
+.main{
+    margin: 5rem 0 5rem 0;
+    padding: 5rem 0 5rem 0;
+    background: rgb(192, 174, 215);
+    overflow: hidden;
+    position: relative;
+    /* height: 100vh; */
+    /* height: fit-content;  */
+}
+
+.main::before{
+    position: absolute;
+    content: '';
+    background: rgba(184, 104, 184, 0.56);
+    width: 300px;
+    height: 300px;
+    clip-path: circle(65.7% at 1% 1%);
+    overflow: hidden;
+    top: 0;
+    z-index: 1;
+
+}
+
+
+.main-1{
+    background: rgb(217, 221, 240);
+    margin: 0 70px 0 70px;
+    display: flex;
+    padding: 15px 20px 15px 20px;
+    border-radius: 20px;
+    z-index: 600;
+    position: relative;
+    /* top: 0; */
+    /* height: 100%; */
+    /* width: 100%; */
+    /* height: fit-content; */
+    /* width: fit-content; */
+}
+
+.left-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    transform: translateX(-7rem);
+}
+
+.left-head{
+    display:flex ;
+    gap: 20px;
+    background-color: white;
+    width: fit-content;
+    border-radius: 10px;
+    align-items: center;
+    transform: translateX(-260px);
+    box-shadow:2px 6px 2px 3px #00000036
+  
+}
+.brand{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.logo img{
+    border-radius: 50%;
+}
+
+.brand-name{
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+
+.head-line{
+    padding: 0 20px 0 20px;
+    font-size: 1.3rem;
+    color: grey;
+}
+.left-main{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 60px 20px 60px 20px;
+    justify-content: center;
+}
+
+.left-images{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 0;
+}
+
+.image-top{
+    display: flex;
+    position: relative;
+}
+.image-bottom{
+    display: flex;
+    transform: translateY(-5px);
+}
+
+.image-top-1 img{
+
+    border-radius: 20px 0 0 0 ;
+}
+.image-top-3 img{
+    border-radius: 0 20px 0 0;
+}
+
+.image-top-4 img{
+    border-radius: 0 0 0 20px;
+}
+.image-top-6 img{
+    border-radius: 0 0 20px 0;
+}
+.left-icon{
+    margin: 20px;
+    background-color: white;
+    padding: 35px 20px 35px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 1.5rem;
+}
+
+
+.image-content{
+    display: flex;
+    position: relative;
+}
+
+.name{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    background-color: rgba(169, 168, 168, 0.61);
+    color: white;
+    border-radius: 10px;
+}
+
+.left-footer{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    transform: translateX(50px);
+
+}
+
+.foter-icon{
+    align-items: center;
+    display: flex;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.call{
+    color: red;
+}
+
+
+
+
+
+.right-content{
+    flex-basis: 40%;
+    padding: 10px;
+}
+
+.right-head{
+    display: flex;
+    background: blue;
+    width: fit-content;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+
+.right-chat-main{
+    background-color: white;
+    height: 80%;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.send-message{
+    display: flex;
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(117, 111, 111, 0.626);
+    transform: translate(30px,-80px);
+}
+
+.send-message-1{
+    width: 100%;
+}
+
+.send-message-1 input{
+    width: 90%;
+    border: 1px solid black;
+    height: 1.5rem;
+}
